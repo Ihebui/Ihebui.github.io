@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Projects Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="portfolio-container">
+        <h1>Welcome to My Website Hub</h1>
+        <p>Select a project below to explore my applications.</p>
+
+        <div class="button-group">
+            <!-- REPLACE 'repo-one-name' WITH YOUR ACTUAL EXACT REPOSITORY NAME -->
+            <a href="/repo-one-name/" class="project-btn" data-project="Project One">
+                <span class="btn-icon">🚀</span>
+                <span class="btn-text">Explore Project One</span>
+            </a>
+
+            <!-- REPLACE 'repo-two-name' WITH YOUR ACTUAL EXACT REPOSITORY NAME -->
+            <a href="/repo-two-name/" class="project-btn" data-project="Project Two">
+                <span class="btn-icon">⚡</span>
+                <span class="btn-text">Explore Project Two</span>
+            </a>
+        </div>
+        
+        <!-- Live status message triggered by JavaScript -->
+        <p id="status-message" class="status-text">&nbsp;</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
