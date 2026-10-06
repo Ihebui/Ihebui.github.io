@@ -3,27 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESP8266 Projects Hub</title>
+    <title>IoT & Embedded Systems Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="portfolio-container">
-        <h1>ESP8266 Projects Hub</h1>
-        <p>Select a hardware project below to view the application.</p>
+        <h1>IoT & Embedded Systems Hub</h1>
+        <p>Explore my hardware modules, microcontrollers, and IoT applications.</p>
 
-        <div class="button-group">
-            <!-- Button to Project 1: LED Blink -->
-            <a href="/esp8266-onboard-led-blink/" class="project-btn" data-project="LED Blink Project">
-                <span class="btn-icon">💡</span>
-                <span class="btn-text">Onboard LED Blink</span>
-            </a>
+        <!-- CATEGORY 1: ESP8266 -->
+        <div class="category-group">
+            <h2 class="category-title">📟 ESP8266 Projects</h2>
+            <div class="button-group">
+                <a href="/esp8266-onboard-led-blink/" class="project-btn" data-project="ESP8266 LED Blink">
+                    <span class="btn-icon">💡</span>
+                    <span class="btn-text">Onboard LED Blink</span>
+                </a>
+                <a href="/esp8266-7segment-counter/" class="project-btn" data-project="ESP8266 7-Segment Counter">
+                    <span class="btn-icon">🔢</span>
+                    <span class="btn-text">7-Segment Counter</span>
+                </a>
+            </div>
+        </div>
 
-            <!-- Button to Project 2: 7-Segment Counter -->
-            <a href="/esp8266-7segment-counter/" class="project-btn" data-project="7-Segment Counter">
-                <span class="btn-icon">🔢</span>
-                <span class="btn-text">7-Segment Counter</span>
-            </a>
+        <!-- CATEGORY 2: ESP32 (Ready for your future projects) -->
+        <div class="category-group">
+            <h2 class="category-title">📶 ESP32 Projects</h2>
+            <div class="button-group">
+                <!-- Example future button (uncomment or add paths when ready) -->
+                <div class="project-btn disabled-btn" data-project="Future ESP32 Project">
+                    <span class="btn-icon">🔒</span>
+                    <span class="btn-text">Coming Soon...</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CATEGORY 3: ARDUINO (Ready for your future projects) -->
+        <div class="category-group">
+            <h2 class="category-title">🔌 Arduino Projects</h2>
+            <div class="button-group">
+                <div class="project-btn disabled-btn" data-project="Future Arduino Project">
+                    <span class="btn-icon">🔒</span>
+                    <span class="btn-text">Coming Soon...</span>
+                </div>
+            </div>
         </div>
         
         <!-- Live status message triggered by JavaScript -->
